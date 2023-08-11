@@ -1,0 +1,79 @@
+:root{
+    --primary: #d84a60;
+}
+
+.btn{
+    
+    padding: 8px 20px;
+    border-radius: 20px;
+    outline: none;
+    border: none; 
+    cursor: pointer; 
+}
+
+.btn-mobile{
+    background-color: transparent;
+}
+
+.btn--primary{
+    background-color: var(--primary);
+    color: #fff;
+    border: 1px solid var(--primary);
+    font-family: 'League Spartan', sans-serif;
+}
+
+.btn--paciente{
+    background-color: #E0A899;
+    color: #fff;
+    font-family: 'League Spartan', sans-serif;
+    height: 40px;
+    width: 200px;
+}
+
+.btn--clinica{
+    background-color: #C99789;
+    color: #fff;
+    font-family: 'League Spartan', sans-serif;
+    height: 40px;
+    width: 200px;
+}
+
+.btn--cadastro{
+    background-color: transparent;
+    color: var(--primary);
+    padding: 8px 20px;
+    border: 2px solid var(--primary);
+    transition: all 0.3s ease-out;
+    font-family: 'League Spartan', sans-serif;
+    height: 40px;
+    width: 200px;
+}
+
+.btn--outline{
+    background-color: #d84a5f6c ;
+    color: #fff;
+    padding: 8px 20px;
+    border: 2px solid var(--primary);
+    transition: all 0.3s ease-out;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.btn--medium{
+    background-color: transparent; 
+    padding: 8px 20px;
+    font-size: 20px;
+}
+
+.btn--large{
+    /*background-color: transparent;*/
+    padding: 12px 26px;
+    font-size: 20px;
+}
+
+.btn--medium:hover, .btn--large:hover{
+    background-color: #d84a60;
+    color: #fff;
+    transition: all 0.3s ease-out;
+}
+
+

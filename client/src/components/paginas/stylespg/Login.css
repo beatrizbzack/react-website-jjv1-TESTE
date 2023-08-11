@@ -1,0 +1,21 @@
+.dir-login{
+    background-color: #FCE9DB;
+    height: 70vh;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 30px;
+}
+
+.dir-login > h1{
+    font-family: 'Cinzel', serif;
+    color: #d84a60;
+}
+
+.dir-login > p{
+    font-family: 'League Spartan', sans-serif;
+    color: #d84a60;
+    font-size: 18px;
+
+}

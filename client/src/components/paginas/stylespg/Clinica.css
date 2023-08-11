@@ -1,0 +1,52 @@
+.login-clinica{
+    background-color: #FCE9DB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 0 2 rem;
+    color: #d84a60;
+}
+
+.form{
+    width: 100%;
+    max-width: 480px;
+    padding: 0.5rem ;
+    border-radius: 20px;
+}
+
+.field{
+    padding-bottom: 0.5rem;
+    
+}
+
+.field > label{
+    display: block;
+    font-family: 'League Spartan', sans-serif;
+
+}
+
+.field > input{
+    width: 100%;
+    background-color: #FCE9DB;
+    border-color: #C99789;
+    border-radius: 15px;
+    height: 30px;
+}
+
+.actions{
+    text-align: center;
+    margin-top: 1vh;
+}
+
+.actions > button{
+    background-color: #d84a60;
+    border-color: #d84a60;
+    color: #fff;
+    border-radius: 15px;
+    height: 30px;
+    width: 100%;
+    font-family: 'League Spartan', sans-serif;
+
+}

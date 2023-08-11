@@ -1,0 +1,221 @@
+video {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+}
+  
+.hero-container {
+    background: url('../../public/images/img-inicial.jpg') center center/cover no-repeat ; 
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+    padding-top: 100px;
+}
+
+.hero-container > h1 {
+color: #d84a60;
+font-size: 80px;
+margin-top: -100px;
+font-family: 'Raleway', sans-serif; 
+
+}
+
+.hero-container > p {
+margin-top: 8px;
+color: #fff;
+font-size: 32px;
+font-family: 'League Spartan', sans-serif;
+}
+
+.valores-container{
+background-color: #FCE9DB;
+height: 100vh;
+width: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+object-fit: contain;
+
+}
+
+.valores-boxContainer{
+
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around ;
+    align-items: center;
+    object-fit: contain;
+    margin: 30px; 
+}
+
+.valores-box{
+    background-color: #fff;
+    height: 65vh;
+    width: 25%;
+    color: #977066; 
+    font-family: 'League Spartan', sans-serif;
+    padding: 12px 26px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+    object-fit: contain;
+    box-shadow: 0 6px 20px #977066ac;
+}
+
+.valores-box > h1{
+    color: #d84a60;
+    margin-top: 16px;
+    font-size: 28px;
+}
+
+.valores-box > p{
+    margin-top: 6px;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.valores-container > h1 {
+    color: #d84a60;
+    font-size: 35px;
+    /*margin-top: -30px;*/
+    font-family: 'Raleway', sans-serif; 
+}
+
+
+.hero-btns {
+margin-top: 32px;
+}
+
+.hero-btns .btn {
+margin: 6px;
+}
+
+.depoimentos-container{
+    background-color: #E0A899;
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+    padding: 12px 26px;
+}
+
+.depoimentos-container > h1{
+    margin-top: 16px;
+    font-size: 35px;
+    font-family: 'Raleway', sans-serif; 
+    color: #d84a60;
+}
+
+.depoimentos-container > p{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-size: 22px;
+    text-align: center;
+    font-family: 'League Spartan', sans-serif;
+    color: #fff;
+
+}
+
+.location-container{
+    background-color: #FCE9DB;
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+    padding: 12px 26px;
+}
+
+.location-container > h1{
+    margin-top: 16px;
+    font-size: 35px;
+    font-family: 'Raleway', sans-serif; 
+    color: #d84a60;
+}
+
+.fa-solid.fa-arrow-right {
+margin-left: 4px;
+}
+
+@media screen and (max-width: 960px) {
+    .hero-container > h1 {
+        font-size: 70px;
+        margin-top: -150px;
+    }
+
+}
+
+@media screen and (max-width: 735px) {
+    .hero-container > h1 {
+        font-size: 50px;
+        margin-top: -100px;
+    }
+
+    .hero-container > p {
+        font-size: 30px;
+    }
+
+    .btn-mobile {
+        display: block;
+        text-decoration: none;
+    }
+
+    .btn {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    .valores-box > p{
+        font-size: 14px;
+    }
+
+    .valores-box > h1{
+        font-size: 24px;
+    }
+}
+
+.depoimentos{
+    display: flex;
+    flex-direction: row; 
+    font-family: 'League Spartan', sans-serif;
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
+    object-fit: contain;
+}
+
+.depoimento{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+
+}
+
+.depoimento > p {
+    font-size: 13px;
+    text-align: center;
+    
+}
+
+.depoimento > h2 {
+    font-size: 17px;
+}

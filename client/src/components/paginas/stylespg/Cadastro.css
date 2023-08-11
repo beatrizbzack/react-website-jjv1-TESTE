@@ -1,0 +1,28 @@
+.dir-cadastro{
+    background-color: #FCE9DB;
+    height: 70vh;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 30px;
+}
+
+.dir-cadastro > h1{
+    font-family: 'Cinzel', serif;
+    color: #d84a60;
+}
+
+.dir-cadastro > p{
+    font-family: 'League Spartan', sans-serif;
+    color: #d84a60;
+    font-size: 18px;
+
+}
+
+.dir-cadastro > h2{
+    font-family: 'League Spartan', sans-serif;
+    font-size: 25px;
+    color: #d84a60;
+
+}
